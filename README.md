@@ -127,7 +127,7 @@ const rajaram: Developer = {
 
 <!-- ===================== QUOTE ===================== -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="quote" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=99999&pause=99999&color=00FF87&center=true&vCenter=true&multiline=true&width=850&height=90&lines=%22The+computer+was+born+to+solve+problems;that+did+not+exist+before.%22++%E2%80%94+Bill+Gates" alt="quote" />
 </div>
 
 <!-- ===================== FOOTER WAVE ===================== -->
