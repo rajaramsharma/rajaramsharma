@@ -6,7 +6,7 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rajaram Sharma — Full Stack Developer">
+<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Rajaram Sharma — Full Stack Developer">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="900" y2="280" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0a0e17"/><stop offset="0.5" stop-color="#0d1220"/><stop offset="1" stop-color="#0a0e17"/>
@@ -17,9 +17,13 @@
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="ringGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M30 0 L0 0 0 30" fill="none" stroke="#163042" stroke-width="0.6"/>
     </pattern>
+    <clipPath id="avatarClip"><circle cx="765" cy="150" r="72"/></clipPath>
   </defs>
   <rect width="900" height="280" rx="16" fill="url(#bgGrad)"/>
   <rect width="900" height="280" rx="16" fill="url(#grid)" opacity="0.5"/>
@@ -50,7 +54,20 @@
     <g transform="translate(264,0)"><rect x="0" y="0" width="64" height="28" rx="14" fill="#60efff15" stroke="#60efff" stroke-width="1"/><text x="32" y="19" text-anchor="middle" fill="#60efff">AWS</text></g>
     <g transform="translate(340,0)"><rect x="0" y="0" width="116" height="28" rx="14" fill="#60efff15" stroke="#60efff" stroke-width="1"/><text x="58" y="19" text-anchor="middle" fill="#60efff">Spring Boot</text></g>
   </g>
-  <rect x="40" y="58" width="820" height="2" fill="#00FF87" opacity="0.4">
+  <!-- ===== AVATAR with glowing animated ring ===== -->
+  <g>
+    <circle cx="765" cy="150" r="80" fill="none" stroke="url(#mint)" stroke-width="2.5" filter="url(#ringGlow)" stroke-dasharray="14 8" opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" from="0 765 150" to="360 765 150" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="765" cy="150" r="76" fill="#0a0e17"/>
+    <image x="693" y="78" width="144" height="144" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"
+           xlink:href="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/main/hero12.png"
+           href="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/main/hero12.png"/>
+    <circle cx="765" cy="150" r="72" fill="none" stroke="#60efff" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="40" y="58" width="700" height="2" fill="#00FF87" opacity="0.4">
     <animate attributeName="y" values="58;240;58" dur="6s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0.5;0" dur="6s" repeatCount="indefinite"/>
   </rect>
