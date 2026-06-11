@@ -111,7 +111,11 @@ const rajaram: Developer = {
 
 <!-- snake eating contributions (powered by the included GitHub Action) -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/output/github-snake-dark.svg" alt="snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/output/github-snake.svg" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/output/github-snake.svg" />
+  </picture>
 </div>
 
 ---
