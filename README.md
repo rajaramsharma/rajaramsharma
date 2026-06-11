@@ -1,34 +1,34 @@
 <!-- ============================================================= -->
 <!--  RAJARAM SHARMA · GitHub Profile README                        -->
-<!--  Photo uses a normal <img> tag so GitHub renders it reliably.  -->
+<!--  Animated circular avatar (GIF) on the side.                   -->
+<!--  Upload avatar_animated.gif to the repo root.                  -->
 <!-- ============================================================= -->
 
 <!-- ===================== HERO BANNER ===================== -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%">
 <tr>
-<td width="58%" valign="middle">
+<td width="62%" valign="middle">
 
-<h3>🟡 Full Stack</h3>
-<h3>🟡 Developer</h3>
+### 🟢 Full Stack Developer
 
-<h1>Rajaram Sharma</h1>
-<p><sub>aka Raja · 📍 Kathmandu, Nepal 🇳🇵</sub></p>
+# Rajaram Sharma
+<sub>aka Raja · 📍 Kathmandu, Nepal 🇳🇵</sub>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=rajaramsharma&color=00ff87&style=flat-square&label=visitors" alt="visitors" />
+<a href="https://github.com/rajaramsharma"><img src="https://img.shields.io/github/followers/rajaramsharma?style=flat-square&color=00ff87&label=Follow" alt="followers" /></a>
 
 </td>
-<td width="42%" align="right" valign="middle">
+<td width="38%" align="center" valign="middle">
 
-<img src="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/main/hero12.png" width="230" style="border-radius:14px;" alt="Rajaram Sharma" />
+<img src="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/main/avatar_animated.gif" width="240" alt="Rajaram Sharma" />
 
 </td>
 </tr>
 </table>
 
 # Hey! 👋
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=rajaramsharma&color=ffd43b&style=flat-square&label=visitors" alt="visitors" />
-  <a href="https://github.com/rajaramsharma"><img src="https://img.shields.io/github/followers/rajaramsharma?style=flat-square&color=ffd43b&label=Follow" alt="followers" /></a>
-</div>
 
 I'm **Rajaram Sharma**! 🚀
 
@@ -84,12 +84,12 @@ I'm **Rajaram Sharma**! 🚀
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rajaramsharma&show_icons=true&theme=default&hide_border=true&title_color=eab308&icon_color=eab308" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=rajaramsharma&theme=default&hide_border=true&stroke=eab308&ring=eab308&fire=eab308" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=rajaramsharma&show_icons=true&theme=tokyonight&hide_border=true&title_color=00FF87&icon_color=60efff" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=rajaramsharma&theme=tokyonight&hide_border=true&stroke=00FF87&ring=60efff&fire=00FF87" />
 </div>
 
 <div align="center">
-  <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajaramsharma&layout=compact&theme=default&hide_border=true&title_color=eab308" />
+  <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajaramsharma&layout=compact&theme=tokyonight&hide_border=true&title_color=00FF87" />
 </div>
 
 ---
