@@ -1,6 +1,7 @@
 <!-- ============================================================= -->
-<!--  RAJARAM SHARMA · POWERFUL DEVELOPER PROFILE                   -->
-<!--  Upload avatar_animated.gif to the repo root.                  -->
+<!--  RAJARAM SHARMA · DEVELOPER PROFILE README                    -->
+<!--  Setup: put avatar_animated.gif in the repo root.             -->
+<!--  Snake: add .github/workflows/snake.yml (included).           -->
 <!-- ============================================================= -->
 
 <!-- ===================== ANIMATED HEADER WAVE ===================== -->
@@ -34,7 +35,7 @@
 const rajaram: Developer = {
   name: "Rajaram Sharma",
   role: "Full Stack Developer",
-  location: "Kathmandu, Nepal ",
+  location: "Kathmandu, Nepal 🇳🇵",
   code: ["TypeScript", "Java", "JavaScript", "PHP"],
   frameworks: ["Next.js", "React", "Spring Boot", "Node.js"],
   learning: ["AWS Cloud", "System Design", "Advanced DSA"],
@@ -45,6 +46,8 @@ const rajaram: Developer = {
 - 🔭 Currently building **scalable full-stack apps** with **Next.js** & **Spring Boot**
 - 🌱 Deep-diving into **AWS Cloud**, **System Design** & **Data Structures**
 - 💡 I love clean architecture, performance, and shipping real products
+- 👯 Open to **collaborating** on open-source and full-stack projects
+- 📫 Reach me at **sharmarajaram18000@gmail.com**
 - ⚡ Fun fact: I turn ☕ into 💻 — one commit at a time
 
 ---
@@ -106,7 +109,7 @@ const rajaram: Developer = {
   <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=rajaramsharma&theme=react-dark&bg_color=0d1117&hide_border=true&color=00FF87&line=8B5CF6&point=ffffff&area=true&area_color=38BDF8" />
 </div>
 
-<!-- snake eating contributions (needs a GitHub Action — see note) -->
+<!-- snake eating contributions (powered by the included GitHub Action) -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/output/github-snake-dark.svg" alt="snake animation" />
 </div>
@@ -127,7 +130,7 @@ const rajaram: Developer = {
 
 <!-- ===================== QUOTE ===================== -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=99999&pause=99999&color=00FF87&center=true&vCenter=true&multiline=true&width=850&height=90&lines=%22The+computer+was+born+to+solve+problems;that+did+not+exist+before.%22++%E2%80%94+Bill+Gates" alt="quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="dev quote" />
 </div>
 
 <!-- ===================== FOOTER WAVE ===================== -->
