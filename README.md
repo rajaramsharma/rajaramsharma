@@ -1,48 +1,27 @@
 <!-- ============================================================= -->
 <!--  RAJARAM SHARMA · GitHub Profile README                        -->
-<!--  Friendly hero-banner edition. Replace hero12.png in repo root -->
+<!--  Photo uses a normal <img> tag so GitHub renders it reliably.  -->
 <!-- ============================================================= -->
 
 <!-- ===================== HERO BANNER ===================== -->
-<div align="center">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td width="58%" valign="middle">
 
-<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Rajaram Sharma — Full Stack Developer">
-  <defs>
-    <clipPath id="photoClip"><rect x="300" y="36" width="230" height="264" rx="14"/></clipPath>
-    <linearGradient id="stroke1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FFD43B"/><stop offset="1" stop-color="#FFE066"/>
-    </linearGradient>
-  </defs>
+<h3>🟡 Full Stack</h3>
+<h3>🟡 Developer</h3>
 
-  <!-- white canvas -->
-  <rect width="900" height="300" fill="#ffffff"/>
+<h1>Rajaram Sharma</h1>
+<p><sub>aka Raja · 📍 Kathmandu, Nepal 🇳🇵</sub></p>
 
-  <!-- yellow paint strokes (behind everything) -->
-  <path d="M30 70 Q 280 50 500 64 Q 700 78 560 96 Q 300 110 40 100 Q 10 86 30 70 Z" fill="url(#stroke1)" opacity="0.95"/>
-  <path d="M40 150 Q 240 138 470 150 Q 560 156 470 168 Q 250 180 50 172 Q 20 160 40 150 Z" fill="url(#stroke1)" opacity="0.95"/>
+</td>
+<td width="42%" align="right" valign="middle">
 
-  <!-- role text on the yellow strokes -->
-  <text x="56" y="92" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#1b1b1b">Full Stack</text>
-  <text x="56" y="170" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#1b1b1b">Developer</text>
+<img src="https://raw.githubusercontent.com/rajaramsharma/rajaramsharma/main/hero12.png" width="230" style="border-radius:14px;" alt="Rajaram Sharma" />
 
-  <!-- photo on center-right -->
-  <rect x="300" y="36" width="230" height="264" rx="14" fill="#0d1220"/>
-  <image x="276" y="20" width="280" height="300" clip-path="url(#photoClip)" preserveAspectRatio="xMidYMid slice"
-         xlink:href="hero12.png" href="hero12.png"/>
-
-  <!-- name on the right -->
-  <text x="560" y="140" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="800" fill="#111111">Rajaram</text>
-  <text x="560" y="186" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="800" fill="#111111">Sharma</text>
-  <text x="562" y="222" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" fill="#777777">aka Raja 🇳🇵</text>
-
-  <!-- small location chip -->
-  <g transform="translate(56,210)">
-    <rect x="0" y="0" width="186" height="34" rx="17" fill="#f1f3f5" stroke="#e0e3e7"/>
-    <text x="16" y="22" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#444">📍 Kathmandu, Nepal</text>
-  </g>
-</svg>
-
-</div>
+</td>
+</tr>
+</table>
 
 # Hey! 👋
 
