@@ -34,7 +34,7 @@
 const rajaram: Developer = {
   name: "Rajaram Sharma",
   role: "Full Stack Developer",
-  location: "Kathmandu, Nepal 🇳🇵",
+  location: "Kathmandu, Nepal ",
   code: ["TypeScript", "Java", "JavaScript", "PHP"],
   frameworks: ["Next.js", "React", "Spring Boot", "Node.js"],
   learning: ["AWS Cloud", "System Design", "Advanced DSA"],
